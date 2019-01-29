@@ -19,7 +19,7 @@ public class ErrorMessageValidationTest extends TestBase {
         String actualError = pages.login().errorMessage.getText();
         extentLogger.info("Verifying error message");
         assertEquals(actualError, LOGIN_ERROR_MESSAGE);
-        extentLogger .pass("Completed test: Wrong email test");
+        extentLogger .pass("Passed:Wrong email test");
 
     }
 
@@ -32,7 +32,7 @@ public class ErrorMessageValidationTest extends TestBase {
         String actualError = pages.login().errorMessage.getText();
         extentLogger.info("Verifying error message");
         assertEquals(actualError, LOGIN_ERROR_MESSAGE);
-        extentLogger .pass("Completed test: Wrong password test");
+        extentLogger .pass("Passed:Wrong password test");
 
     }
 
@@ -46,7 +46,7 @@ public class ErrorMessageValidationTest extends TestBase {
         String actualError = pages.login().errorMessage.getText();
         extentLogger.info("Verifying error message");
         assertEquals(actualError, LOGIN_ERROR_MESSAGE);
-        extentLogger .pass("Completed test: Blank username test");
+        extentLogger .pass("Passed:Blank username test");
 
     }
 
@@ -60,7 +60,7 @@ public class ErrorMessageValidationTest extends TestBase {
         String actualError = pages.login().errorMessage.getText();
         extentLogger.info("Verifying error message");
         assertEquals(actualError, LOGIN_ERROR_MESSAGE);
-        extentLogger .pass("Completed test: Blank password test");
+        extentLogger .pass("Passed:Blank password test");
     }
 
 }

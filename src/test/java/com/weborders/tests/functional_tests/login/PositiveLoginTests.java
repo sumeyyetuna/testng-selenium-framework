@@ -27,7 +27,7 @@ public class PositiveLoginTests extends TestBase {
         assertEquals(driver.getCurrentUrl(),
                 "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/");
         fail();
-        extentLogger.pass("Completed: Cart Icon Delete Test");
+        extentLogger.pass("Passed: Cart Icon Delete Test");
 
     }
 

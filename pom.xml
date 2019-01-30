@@ -50,7 +50,7 @@
                 <version>2.21.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng_runner.xml</suiteXmlFile>
+                        <suiteXmlFile>*runner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

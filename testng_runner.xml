@@ -5,7 +5,7 @@
         <classes>
             <class name="com.weborders.tests.functional_tests.login.ErrorMessageValidationTest">
                 <methods>
-                    <exclude name="blankPassword"/>
+                    <include name="blankPassword"/>
                 </methods>
             </class>
         </classes>
